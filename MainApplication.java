@@ -36,9 +36,9 @@ public class MainApplication {
                         String password = sc.nextLine();
                         boolean registered = authenticationService.registerUser(name, password);
                         if (registered) {
-                            System.out.println("------------Registration Successful----------");
+                            System.out.println("-------------Registration Successful-----------");
                         } else {
-                            System.out.println("-------------Registration Failed-------------");
+                            System.out.println("--------------Registration Failed--------------");
                         }
                         break;
 
