@@ -11,7 +11,7 @@ public class MainApplication {
         PurchaseService purchaseService = new PurchaseService(courseCatalog, authenticationService);
         courseCatalog.addCourse(new Course(1, "Java Programming", 3800.0, "Comprehensive guide to Java programming.", 84));
         courseCatalog.addCourse(new Course(2, "Advanced Java", 3800.0, "In-depth exploration of advanced Java concepts.", 90));
-        courseCatalog.addCourse(new Course(3, "Database Management Systems", 3800.0, "Introduction to database design and management.", 60));
+        courseCatalog.addCourse(new Course(3, "Database Management Systems", 3800.0, "Introduction to database design and management.", 80));
         courseCatalog.addCourse(new Course(4, "Web Technologies", 3800.0, "Learn HTML, CSS, and JavaScript for web development.", 100));
         courseCatalog.addCourse(new Course(5, "Python Programming", 3800.0, "Introduction to Python programming language.", 84));
 
